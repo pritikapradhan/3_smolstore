@@ -5,7 +5,7 @@ import '../../../envConfig.js'
 
 const API_KEY = process.env.NEXT_PUBLIC_STRIPE_SECRET_KEY
 const stripe = new Stripe(API_KEY, {
-    apiVersion: '2026-08-26.dahlia'
+    apiVersion: '2026-08-26'
 })
 
 export async function GET() {
